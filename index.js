@@ -3,7 +3,7 @@ const amerm = "американо з молоком"
 const cap = "капучіано"
 const lat = "латте"
 let addition, sizeCup, sort, sugar
-let cofee  = prompt(`Яку каву ви бажаєте? ${amer}, ${amerm}, ${cap} чи ${lat}?`)
+let cofee  = prompt(`Вітаю в ShariKava,яку каву ви бажаєте? ${amer}, ${amerm}, ${cap} чи ${lat}?`)
     if (cofee == amer){
         cofee = amer 
         addition = ''
@@ -54,4 +54,4 @@ if (cofee){
     sugar = prompt ("Скільки  цукру ?")
     
 } 
-console.log(`Ось ваше замовлення ${cofee} ${addition} ${sizeCup} ${sort} з ${sugar} кубиками цукру`)
+console.log(`Ось ваше замовлення ${cofee} ${addition} ${sizeCup} ${sort} з ${sugar} кубиками цукру, приходьте ще:)`)
